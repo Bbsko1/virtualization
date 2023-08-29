@@ -28,7 +28,7 @@ export const Virtualization = () => {
         }
 
         setStartNumber(num);
-    }, 0);
+    }, 50);
 
     /* вычленяем нужные элементы из исходного массива */
     const arEdit = arData.slice().splice(startNumber, elementsCount + (addNumbers * 2));
